@@ -1,6 +1,10 @@
-# 🚀 Mini Mercadolibre (prueba técnica)
+# 🚀 Mini Mercadolibre
 
-Prueba técnica para el cargo de Desarrollador Frontend. El proyecto consta de 2 carpetas: Frontend project y Backend project. 
+Proyecto esta dividido en 2 carpetas: Frontend project y Backend project.
+Vistas:
+- Buscador
+- Listado de productos
+- Detalle de producto 
 
 ## 🔧 Tecnologias utilizadas
 
