@@ -13,5 +13,5 @@ app.use(express.urlencoded({ extended: false }))
 app.use(require("./routes/index"));
 
 app.listen(app.get("port"), () => {
-  console.log(`hi server ${app.get("port")}`)
+  console.log(`Server on ${app.get("port")}`)
 })

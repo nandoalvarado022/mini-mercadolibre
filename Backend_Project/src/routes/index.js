@@ -7,12 +7,9 @@ router.get("/api/items", async(req, res) => {
   res.header("Access-Control-Allow-Origin", "*");
   const { query } = req
   const q = query ? query.q : null
-  console.log("QUERYV");
-  console.log(q);
   const url = base_url + `/sites/MLA/search?q=${q}`;
   let data = await fetch(url);
   data = await data.json();
-  // const categories = data.results.reduce((a, b) => )
   data = {
     author: {
       name: "Hernando",
