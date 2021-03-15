@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url("/assets/fonts/ProximaNova-Regular.otf");
+}
+
+html body {
+    @media screen and (max-width: 420px) {
+        padding: 0;
+    }
+}
+
+body #__next {
+    margin: 0;
+    background: #eeeeee;
+    font-family: "ProximaNova-Regular";
+    line-height: initial;
+}
+
+.flex {
+    display: flex;
+}
+
+.width980 {
+    margin: 0 auto;
+    @media screen and (min-width: 1000px) {
+        width: 980px;
+    }
+}
+
+#Wrapper {}

@@ -1,0 +1,15 @@
+#Breadcrumb {
+    margin: 10px auto;
+    color: #b3b3b3;
+    @media screen and (max-width: 420px) {
+        text-align: center;
+    }
+    li {
+        list-style: none;
+        display: inline;
+        margin: 0 15px 0 0;
+        i {
+            margin-right: 10px;
+        }
+    }
+}

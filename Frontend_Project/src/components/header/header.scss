@@ -1,0 +1,44 @@
+#Header {
+    background: #ffe600;
+    width: 100%;
+    padding: 10px 0;
+    .content {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: auto;
+        @media screen and (min-width: 1000px) {
+            width: 1000px;
+        }
+        @media screen and (max-width: 420px) {
+            margin: 0 10px;
+        }
+        .search-content {
+            position: relative;
+            width: 90%;
+            @media screen and (max-width: 420px) {
+                margin-left: 10px;
+            }
+            input {
+                width: 100%;
+                border: 0;
+                border-radius: 5px;
+                outline: none;
+                height: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            button {
+                position: absolute;
+                right: 0;
+                height: 100%;
+                border: 0;
+                cursor: pointer;
+                outline: none;
+                padding: 5px 10px;
+                border-radius: 0 5px 5px 0;
+            }
+            img {}
+        }
+    }
+}
